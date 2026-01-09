@@ -45,6 +45,11 @@ body {
   gap: 32px;
 }
 
+.nav-links a:hover {
+  color: #2f7d4c;
+  
+}
+
 .nav-links a {
   text-decoration: none;
   color: #333;
@@ -68,7 +73,7 @@ body {
 }
 
 .btn:hover {
-  background: #000000;
+  background: #19a032;
 }
 
 
@@ -88,9 +93,22 @@ margin-bottom: -650px;
 
 /* Background image */
 .banner-image img {
-  
+ 
 
 }
+
+/* Badge */
+
+.badge {
+  display: inline-block;
+  background-color: white;
+  text-align: center;
+  color: #2f7d4c;
+  padding: 6px 14px;
+  border-radius: 20px;
+  font-size: 14px;
+  margin-bottom: 20px;
+} 
 
 
 /* Text content */
@@ -122,3 +140,76 @@ margin-bottom: -650px;
   color: #e0e0e0;
 }
 
+.banner-buttons {
+
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+   text-align: center;
+}
+
+
+
+.primary-btn {
+   background: #30B868;
+  color: #FFFFFF;
+  width: 144px;
+  height: 44px;
+  padding: 12px 16px 17px 18px;
+  border-radius: 10px;
+  text-decoration: none;
+  font-size: 14px;
+  text-align: center;
+  }
+
+.primary-btn:hover {
+  background-color: #2f7d4c;
+}
+
+.outlaine-btn:hover {
+  background-color: #191b19;
+}
+
+
+.outlaine-btn {
+  border-radius: 10px;
+  width: 144px;
+  height: 44px;
+  border: 1px solid white;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+
+}
+
+/* section 2 */
+
+#skills .skills-container .skill-box {
+    display: flex;
+    gap: 24px;
+}
+
+.skill-box .skill-card {
+    padding: 30px;
+    /* border: 1px solid red; */
+    box-shadow: 0 6px 50px 0 #00000011;
+    max-width: 267px;
+}
+
+.skill-card img {
+    max-width: 44px;
+    margin-bottom: 30px;
+}
+
+.skill-card h3 {
+    font-size: 20px;
+    color: #181818;
+    margin-bottom: 20px;
+}
+
+.skill-card p {
+    font-size: 16px;
+    color: #757575;
+    line-height: 28px;
+
+}
